@@ -1,0 +1,29 @@
+header{
+    margin: 40px auto;
+    border-bottom: 2px solid black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+body{
+    background-color: lightgreen;
+}
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 5rem;
+    align-items: center;
+    gap:5rem;
+    margin-left: 5rem;
+}
+img{
+    width: 100%;
+    border: 5px solid white;
+}
+.grid-item-1 h2{
+    justify-content: end;
+}

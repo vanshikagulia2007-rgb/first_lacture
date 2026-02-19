@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellowgreen;
+    grid-template-columns: repeat(6,1fr);
+}
+@media screen and (width<576px) {
+     body{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    body{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+    body{
+        grid-template-columns: repeat(4,1fr);
+    }
+}

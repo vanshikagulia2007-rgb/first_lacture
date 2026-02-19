@@ -1,0 +1,30 @@
+body {
+    margin: none;
+    padding: 40px;
+    background: #d4e0f5;    
+    font-family: Arial, sans-serif;
+}
+.emoji {
+    display: grid;
+    grid-template-columns: repeat(10, 5fr);
+    grid-template-rows: repeat(80, 8fr);
+    height: 90vh;
+    width: 90vw;
+    gap: 20px;
+}
+.box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    border-radius: 8px;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+.small { grid-row: span 1; }
+.medium { grid-row: span 2; }
+.tall { grid-row: span 3; }
+
+.navy { background: #22345b; color: #dce6f8; }
+.lime { background: #e9ff9b; }
+.teal { background: #a8d8c6; }

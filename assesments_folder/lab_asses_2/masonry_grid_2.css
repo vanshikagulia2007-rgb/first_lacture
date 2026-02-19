@@ -1,0 +1,43 @@
+body {
+    margin: 5rem;
+    padding: 20px;
+    background: #f5f5f5;
+    font-family: Arial;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 0.5fr);
+    
+    height: 80vh;
+    width: 90vw;
+    gap: 15px;
+}
+
+.item {
+    background: #a15555;
+    color: white;
+    font-size: 24px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+
+.i1 { grid-row: span 2; }
+.i2 { grid-row: span 1; }
+.i3 { grid-row: span 2; }
+.i4 { grid-row: span 1; }
+.i5 { grid-row: span 1; }
+.i6 { grid-row: span 1; }
+.i7 { grid-row: span 2; }
+.i8 { grid-row: span 2; }
+.i9 { grid-row: span 2; }
+.i10 { grid-row: span 1; }
+.i11 { grid-row: span 2; }
+.i12 { grid-row: span 2; }
+.i13 { grid-row: span 3; }
+.i14 { grid-row: span 2; }
+.i15 { grid-row: span 1; }

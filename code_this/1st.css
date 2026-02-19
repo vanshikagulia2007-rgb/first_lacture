@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+
+
+div{
+    border: 2px solid black;
+    text-align: center;
+    height: 45vh;
+    width: 30vw;
+    margin-left: 450px;
+    margin-top: 150px;
+    font-family: Momo Signature
+;
+}
+.abc{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+.bcd{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+     padding: 7px;
+}
+span{
+    color: gray;
+}

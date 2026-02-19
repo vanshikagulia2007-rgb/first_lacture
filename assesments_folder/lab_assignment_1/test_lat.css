@@ -1,0 +1,28 @@
+span{
+    color: gray;
+}
+.abc{
+    color: blue;
+    padding-left: 5rem;
+}
+.cat{
+    border: 2px solid gray;
+    width: 25vw;
+    box-shadow:2px 2px 4px 5px gray ;
+}
+.hmm{
+    padding-left: 5rem;
+}
+.ball{
+    
+    color: black;
+}
+.horse{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.kanu{
+    padding-left: 50px;
+    
+}

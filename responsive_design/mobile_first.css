@@ -1,0 +1,27 @@
+div{
+    background-color: red;
+    height: 600px;
+    width: 600px;
+    color: azure;
+    font-size: xx-large;
+}
+@media screen and (min-width:576px){
+    div{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:768px){
+    div{
+        background-color: rgb(209, 22, 200);
+    }
+}
+@media screen and (min-width:900px){
+    div{
+        background-color: rgb(170, 206, 13);
+    }
+}
+@media screen and (min-width:1024px){
+    div{
+        background-color: rgb(64, 200, 11);
+    }
+}

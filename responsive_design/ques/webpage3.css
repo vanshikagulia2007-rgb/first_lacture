@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    background-color: hwb(240 0% 95%);
+    color: white;
+    padding: 1rem 2rem ;
+    font-size: x-large;
+    justify-content: space-between;
+}
+header div a{
+    color: white;
+    padding-right: 3rem;
+    text-decoration: none;
+    justify-content: space-around;
+
+}
+header button{
+    color: black;
+    background-color: hsl(145, 63%, 43%);
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: medium;
+}
+.right{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    padding: 2rem;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 1rem;
+}
+
+main img{
+    width: 900px;
+    
+    padding: 3rem 6rem;
+    border-radius: 150px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 4rem 1rem */
+}
+
+.mid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.mid button{
+    background-color: #36ca80;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 1.5rem;
+}
+p{
+    padding-top:2rem ;
+    padding-bottom:2rem ;
+    font-size: larger;
+    /* font-weight: 300; */
+}
+h1{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.left{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.card div{
+    width: 300px;
+    height: 100px;
+    font-size: larger;
+    background-color: hsl(66, 25%, 92%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+    border-radius: 1.5rem;
+    /*padding: 2rem;*/
+}
+.card h2{
+    color: #3cdf93;
+}
+.card1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+.card1 div{
+    width: 300px;
+    height: 100px;
+    font-size: larger;
+    background-color: hsl(66, 25%, 92%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}

@@ -1,0 +1,42 @@
+div{
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    color: white;
+}
+/* @media screen and (max-width:600px) {
+    div{
+        background-color: blue;
+    }
+}
+@media screen and (max-height:600px) {
+    div{
+        background-color: #dd2db1;
+    }
+} */
+
+@media screen and (width<576px) {
+    div{
+        background-color: #ff006a;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    div{
+        background-color: #09ce61;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    div{
+        background-color: hsl(69, 89%, 56%);
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+    div{
+        background-color: hsl(199, 68%, 38%);
+    }
+}
+@media screen and (min-width:1024px) {
+    div{
+        background-color: hsl(22, 92%, 42%);
+    }
+}

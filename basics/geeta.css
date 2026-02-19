@@ -1,0 +1,25 @@
+.abc{
+    margin :10%;
+    color: blue;
+}
+button{
+    color: white;
+    background-color: blue;
+    border-radius: 0.5rem;
+    padding-right: 7rem;
+}
+span{
+    color: blue;
+}
+.gor{
+    border: 2px solid black;
+    width: 20vw;
+    padding: 1rem;
+
+}
+p{
+    color: gray;
+}
+input{
+    padding-right: 5rem;
+}

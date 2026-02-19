@@ -1,0 +1,32 @@
+.abcd{
+    border:2px solid black;
+    padding:1 rem;
+    width:20vw;
+    height:75vh;
+}
+.gor{
+    text-decoration: line-through;
+    color: gray;
+    }
+button{
+    color: white;
+    font-size: large;
+    background-color: blue;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem; 
+     padding-inline: 3rem; 
+    margin: 1rem;
+    }
+h3{
+    color: gray;
+}
+span{
+    color: gray;
+    font-size: small;
+}
+.like{
+    color: gray;
+    }
+.like i{
+    color: blue;}

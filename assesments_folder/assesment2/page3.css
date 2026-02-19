@@ -1,0 +1,35 @@
+.abc{
+    border:3px solid grey;
+    width: 25vw;
+    padding: 2rem;
+    box-shadow: 2px 2px 4px 5px grey;
+    height:50vh
+}
+.ghf{
+    margin: 8px;
+    width: 150px;
+    border-radius: 10px;
+    height: 5vh;
+}
+.gor{
+    border-radius: 10px;
+    height: 5vh;
+}
+.jkl{
+    width: 20vw;
+    border-radius: 10px;
+    height: 5vh;
+}
+.submit{
+    background-color: blue;
+    color: aliceblue;
+    border-radius:10px ;
+     width: 20vw;
+     height: 5vh;
+}
+.xyz{
+    margin: 90px;
+}
+.boss{
+    margin-left:550px;
+}

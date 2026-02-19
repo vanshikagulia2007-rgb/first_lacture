@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    flex-direction: row;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    background-color: hsl(240, 81%, 25%);
+    color: white;
+    padding: 2rem ;
+    font-size: x-large;
+ 
+}
+.white{
+    color: white;
+   
+}
+.yellow{
+    color: yellow;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2rem;
+}
+nav{
+    padding-left: 40rem;
+}
+
+footer{
+    background-color: gray;
+    color: black;
+    padding: 7rem;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    text-align: center;
+    /* padding-top: 10% ;
+    padding-bottom: 10% ; */
+    padding: 6rem;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: medium;
+}
+p{
+    flex-wrap: wrap;
+    font-size: large;
+}
+h1{
+    font-size: 60px;
+}
+/* @media screen and (width<576px) {
+    header{
+        flex-direction: column;
+   }
+} */
+/* @media screen and (min-width:576px) and (max-width:768px) {
+    div{
+        background-color: #09ce61;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    div{
+        background-color: hsl(69, 89%, 56%);
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+    div{
+        background-color: hsl(199, 68%, 38%);
+    }
+}
+@media screen and (min-width:1024px) {
+    div{
+        background-color: hsl(22, 92%, 42%);
+    }
+} */

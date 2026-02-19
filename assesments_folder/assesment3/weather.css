@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: #0a0f2f;
+    color: #fff;
+    padding: 20px; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.abc {
+    padding: 8px 16px;
+    background: #1b1f3b;
+    border: none;
+    border-radius: 8px;
+    color: white; 
+    }
+.bcd {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.search-box input {
+    width: 50%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #1d2345;
+    color: white;
+    font-size: 16px;
+}
+.search-btn {
+    padding: 12px 20px;
+    background: #3a5cf4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    }
+.xyz {
+    display: flex;
+    gap: 25px;
+    padding: 3rem;
+}
+.weather-card {
+    background: linear-gradient(135deg, #5567ff, #5a20d4);
+    padding: 15px;
+    border-radius: 20px;
+}
+.weather-card h2 {
+    font-size: 22px;
+}
+.date {
+   margin-bottom: 20px;
+}
+.gor{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.gor .icon {
+    width: 70px;
+}
+.temp {
+    font-size: 60px;
+}
+.row {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.box {
+    background: #1c2140;
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+}
+.box h3 {
+    margin-top: 5px;
+    font-size: 22px;
+}
+.title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.daily-forecast {
+    display: flex;
+    gap: 15px;
+    }
+.day {
+    background: #1c2140;
+    width: 140px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+.day img {
+    width: 35px;
+    margin: 10px 0;
+}
+.hourly-card {
+    background: #1c2140;
+    border-radius: 20px;
+    padding: 40px;
+    }
+.hourly-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.day{
+    background: #2e355c;
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+.hour-list .hour {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #2e355c;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.left{
+    width: 30vw;
+    margin-left: 3rem;
+}
+.right{
+    width: 70vw;
+}

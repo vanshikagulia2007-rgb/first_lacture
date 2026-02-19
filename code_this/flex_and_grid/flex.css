@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Momo+Signature&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body{
+    height: 50vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Badeen Display;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(126, 91, 190);
+    color: azure;
+    
+}
+.abc{
+    align-self: flex-end;
+}

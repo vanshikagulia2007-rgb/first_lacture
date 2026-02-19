@@ -1,0 +1,37 @@
+.box{
+    margin-top:30;
+    margin-left:500px ;
+}
+.div{
+    border: grey;
+    height: 80vh;
+    width: 15vw;
+    padding:2rem;
+    box-shadow: 2px 2px 4px 5px gray;
+} 
+.button{
+    height:5vh;
+    width:15vw ;
+}
+.info{
+    display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+.name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin:0px;
+}
+
+.email {
+    font-size: 0.85rem;
+    color: grey;
+    margin: 0;
+}
